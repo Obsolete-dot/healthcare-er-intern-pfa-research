@@ -61,7 +61,7 @@ const PIPELINE_DATA: PipelineItem[] = [
   },
   {
     id: "4",
-    company: { cn: "玄宇医疗 (XuanYu Medical)", en: "XuanYu Medical" },
+    company: { cn: "玄宇医疗 (Shineyo Medical)", en: "Shineyo Medical" },
     category: "DOMESTIC",
     productName: "AblatEasy™ Multi-Channel Dual-Energy System",
     energyType: { cn: "PFA + RF 双能量融合", en: "Dual-Energy (PFA + RF Hybrid)" },
@@ -250,7 +250,7 @@ export default function PFAPortfolioPage() {
             { id: "overview", label: lang === "cn" ? "赛道逻辑与技术颠覆" : "Core Thesis & Tech Shift", icon: Zap },
             { id: "lifecycle", label: lang === "cn" ? "器械 0 到 1 上市流程" : "MedTech 0-to-1 Roadmap", icon: Layers },
             { id: "pipelines", label: lang === "cn" ? "知名企业管线数据库" : "Global Pipeline Database", icon: Database },
-            { id: "company", label: lang === "cn" ? "玄宇医疗深度拆解" : "Company Deep-Dive: XuanYu", icon: Building2 },
+            { id: "company", label: lang === "cn" ? "玄宇医疗深度拆解" : "Company Deep-Dive: Shineyo", icon: Building2 },
             { id: "tam", label: lang === "cn" ? "市场空间动态测算" : "Interactive TAM Model", icon: BarChart3 }
           ].map(tab => {
             const Icon = tab.icon;
@@ -549,7 +549,7 @@ export default function PFAPortfolioPage() {
                     {lang === "cn" ? "重点未上市标的专题研究" : "Key Private Target Deep-Dive"}
                   </span>
                   <h2 className="text-2xl font-bold text-slate-900 mt-2">
-                    {lang === "cn" ? "玄宇医疗 (XuanYu Medical)" : "XuanYu Medical Technology"}
+                    {lang === "cn" ? "玄宇医疗 (Shineyo Medical)" : "Shineyo Medical Technology"}
                   </h2>
                   <p className="text-xs text-slate-500 mt-1">
                     {lang === "cn" 
@@ -573,7 +573,7 @@ export default function PFAPortfolioPage() {
                 <p className="text-xs text-slate-600 leading-relaxed">
                   {lang === "cn"
                     ? "纯 PFA 系统在应对心室肌等深层增厚心肌时，易存在电穿孔深度不够的局限。玄宇自研的“高压脉冲 + 射频”双模发生器，可根据术中阻抗与组织厚度智能切换，实现“快速肺静脉隔离用脉冲，深层特殊解剖结构用射频”的高效互补。"
-                    : "Standalone PFA systems face penetration depth challenges in thicker ventricular tissues. XuanYu's proprietary PFA+RF hybrid platform dynamically adapts to tissue impedance—leveraging PFA for rapid pulmonary vein isolation and RF for deep, non-standard anatomical sites."}
+                    : "Standalone PFA systems face penetration depth challenges in thicker ventricular tissues. Shineyo's proprietary PFA+RF hybrid platform dynamically adapts to tissue impedance—leveraging PFA for rapid pulmonary vein isolation and RF for deep, non-standard anatomical sites."}
                 </p>
               </div>
 
@@ -609,7 +609,7 @@ export default function PFAPortfolioPage() {
                 <p className="text-xs text-slate-600 leading-relaxed">
                   {lang === "cn"
                     ? "国内电生理市场兼具‘进口替代’与‘技术迭代’双重机遇。玄宇若顺利获批，将作为国产第一梯队与强生、波科同台竞技；其多模态管线若能与三维电生理标测系统形成协同，将显著提高入院门槛壁垒。"
-                    : "The domestic EP market presents dual tailwinds of import substitution and technology iteration. Once approved, XuanYu will be well-positioned among first-tier domestic champions to challenge global MNCs."}
+                    : "The domestic EP market presents dual tailwinds of import substitution and technology iteration. Once approved, Shineyo will be well-positioned among first-tier domestic champions to challenge global MNCs."}
                 </p>
               </div>
             </div>

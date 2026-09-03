@@ -5,7 +5,7 @@
 Core Features
 * **Industry Deep-Dive:** Head-to-head comparison of RF, Cryo, and PFA ablation technologies.
 * **0-to-1 Commercialization:** Full-cycle roadmap for Class III MedTech (R&D, GCP trials, NMPA approval, DRG/DIP access).
-* **Pipeline Database:** Tracking global & domestic leaders (Boston Scientific, Medtronic, XuanYu Medical, Jinjiang).
+* **Pipeline Database:** Tracking global & domestic leaders (Boston Scientific, Medtronic, Shineyo Medical, Jinjiang).
 * **Interactive TAM Model:** Dynamic sensitivity simulation for market sizing and adoption elasticity.
 
 ---
